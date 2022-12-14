@@ -203,3 +203,63 @@
         }
     }
 }
+
+@media screen and (max-width: 422px) {
+.controls {
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey5);
+
+        .control {
+            margin: .6rem 1rem;
+        }
+
+    }
+
+}
+ .portfolios {
+     grid-template-columns: 1fr ;
+ }
+
+@media screen and (max-width: 324px) {
+    .controls {
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey5);
+
+        .control {
+            margin: .6rem .5rem;
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 324px) {
+    .controls {
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey5);
+
+        .control {
+            margin: .6rem .1rem;
+        }
+
+    }
+
+}
