@@ -204,7 +204,7 @@
     }
 }
 
-@media screen and (max-width: 422px) {
+@media only screen and (max-width: 422px) {
 .controls {
       
 
@@ -218,7 +218,7 @@
  }
 }
 
-@media screen and (max-width: 324px) {
+@media only screen and (max-width: 324px) {
     .controls {
         top: auto;
         bottom: 0;
@@ -237,7 +237,7 @@
 
 }
 
-@media screen and (max-width: 324px) {
+@media only screen and (max-width: 324px) {
     .controls {
         top: auto;
         bottom: 0;
